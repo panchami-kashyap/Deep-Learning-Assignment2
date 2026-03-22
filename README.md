@@ -5,7 +5,7 @@ This project implements core deep learning models using PyTorch, covering image 
 
 ---
 
-## 📌 Models Implemented
+## Models Implemented
 
 ### 1. CNN (Image Classification)
 - Dataset: Fashion-MNIST
@@ -29,7 +29,7 @@ This project implements core deep learning models using PyTorch, covering image 
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 - CNN Accuracy: ~91%
 - RNN RMSE: 0.0370 (Best)
@@ -39,14 +39,14 @@ This project implements core deep learning models using PyTorch, covering image 
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install the following libraries:
 pip install torch torchvision matplotlib scikit-learn
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download or clone the repository:
    git clone <your-repo-link>
@@ -63,7 +63,7 @@ pip install torch torchvision matplotlib scikit-learn
    
 ---
 
-## 📁 Outputs Included
+## Outputs Included
 
 - CNN accuracy and confusion matrix
 - Training loss curves (CNN, RNN, LSTM, GRU, GAN)
@@ -72,7 +72,7 @@ pip install torch torchvision matplotlib scikit-learn
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - ResNet18 is used as a pretrained model and not fully trained due to CPU limitations.
 - GAN training is limited to few epochs for faster execution.
